@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+
+
+
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* start portfolio */
+.portfolio {
+    padding-top: 100px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.box {
+    height: 450px;
+    width: auto;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 04) 0px 3px 5px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+
+
+.box-one {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-one:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+
+.box-two {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-two:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-three {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-three:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-four {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-four:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-five {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-five:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-six {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-six:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-seven {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-seven:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-eight {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-eight:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-nine {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-nine:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-ten {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-ten:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-eleven {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-eleven:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-twelve {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-twelve:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-thirteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-thirteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-fourteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-fourteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-fifteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-fifteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-sixteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-sixteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-seventeen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-seventeen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-eighteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-eighteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-nineteen {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-nineteen:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}
+
+.box-twenty {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 500px;
+}
+
+.box-twenty:hover {
+    background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+    background-size: 600px;
+}

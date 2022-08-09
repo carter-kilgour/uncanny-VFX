@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Uncanny VFX</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Daniel Milloy</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!----start home section---->
+    <section class="home" id="home">
+<div class="home-text">
+    <h5>Hello Guys!</h5>
+    <h1> Welcome to my portfolio website. My name is  Daniel,  I'm a Junior Animator/VFX/Motion Graphics Designer Based in Ottawa, Ontario.</h1>
+    <h2>Please check out my projects section below to see my work </h2>
+   
+    <!-- <a href="#" class="btn"><i class='bx bx-phone'></i>Call Me</a> -->
+</div>
+<div class="home-img">
+    <img src="/thumbnails\uncanny-brandlogo.png">
+</div>
+
+
+    </section>
+
+    <!-- start about section -->
+    <section class="about" id="about">
+        <div class="about-image">
+<img src="/thumbnails\Uncanny-key.gif"   >
+</div>
+<div class="about-text">
+    
+    <h2>About Me</h2>
+    <p>I began learning about digital art in the year 2018, I got myself a drawing tablet and started to learn how to make digital art, and quickly I became fascinated with bringing digital art to life through animation. In the year 2019, I started to pursue a skill in motion graphics, special effects and animation.  I pride myself on my hard work and dedication, I study 6 days a week and pick up new tricks and techniques every week. After years and many hours of hard work, I can call myself a self-made Junior Animator/VFX/Motion Graphics Artist. I plan to create a freelance business brand called Uncanny VFX " The Key to better content". 
+
+        I think what separates me from the average junior animator / VFX artist is my will to win and improve every day. I want to succeed in this field so badly that I have sacrificed many hobbies and social aspects of life. I am crafty, unique and persistent with my projects even if I don't know how to do something I can go online and figure it out. At this point in my career, I look at myself like a junior chef, I can read any animation/effect recipe and bring it to life. Although I might not have the college credentials I know that my will to win enables me to outwork most of my competition, I get a mental edge knowing that while people are sleeping early in the morning and at night I am outworking them. Some of my other skills include video editing in Adobe Premier pro, I can easily chop up a promo video and add after-effects transitions and motion graphics and special effects into it to make it professional. I can also use Adobe Photoshop to make textures, GIFS  and do photo restoration on old black and white pictures. I also know the basics of Adobe Illustrator, I use it to make logos which I animate in after effects as well as animated cartoon scenes. I am very well-rounded and my services can easily be the key to better content creation for many YouTubers, bloggers and business entrepreneurs around the globe.
+    </p>
+
+        <!-- <a href="#" class="btn">Let's Work</a> -->
+
+</div>
+
+    </section>
+
+   
+
+<!-- start portfolio section -->
+<section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="portfolio-container">
+    <% games.forEach(game=> { %> 
+        <div class="box box-one">
+            <div class="inner">
+                
+                <h3><%= game.title %></h3>
+                <button type="button"><a href="/<%=game.link %>">View My Work</a></button>
+                
+            </div>
+        </div>
+    
+    <% }) %>     
+</div>       
+</section> 
+ <!-- start Service section -->
+ <section class="service" id="services">
+    <div class="heading">
+        <span>Services</span>
+        <h2>Check Out Some Examples Of My Many Services</h2>
+    </div>
+    <div class="service-container">
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>After Effects</h3>
+            <p>I can make you animated Logo Reveals.</p>
+        </div>
+            <div class="row">
+                <i class='bx bxl-adobe' ></i>
+                <h3>After Effects</h3>
+                <p>I can turn your 2d Logo into a rotating 3D watermark.</p>
+            </div>
+                <div class="row">
+                    <i class='bx bxl-adobe' ></i>
+                    <h3>After Effects</h3>
+                    <p>I can make infographics for your company.</p>
+                </div>
+                    <div class="row">
+                        <i class='bx bxl-adobe' ></i>
+                        <h3>Premier Pro</h3>
+                        <p>I can edit videos for you and add transitions/ after effects.</p>
+                    </div>
+                        <div class="row">
+                            <i class='bx bxl-html5' ></i>
+                            <h3>Express/Node JS</h3>
+                            <p>I can route pages for your website.</p>
+                        </div>
+                            <div class="row">
+                                <i class='bx bxl-css3' ></i>
+                                <h3>HTML/CSS</h3>
+                                <p>I can add basic HTML and CSS design for your website.</p>
+    
+        </div>
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Photoshop</h3>
+            <p>I can turn your video into a looping gif.</p>
+        </div>
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Illustrator</h3>
+            <p>I can make pamphlets/flyers for your company.</p>
+        </div>
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Illustrator</h3>
+            <p>I can make an animated social media promo for your company.</p>
+        </div>
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Premier Pro</h3>
+            <p>I can edit your footage into a promo commercial.</p>
+        </div>
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Adobe CC</h3>
+            <p>I can produce your youtube videos.</p>
+        </div>
+
+        <div class="row">
+            <i class='bx bxl-adobe' ></i>
+            <h3>Adobe CC</h3>
+            <p>I have many skills please contact me for more info.</p>
+        </div>
+    </div>
+    
+</div>
+    </section>
+
+
+<!-- call to action -->
+<!-- <section class="cta"> -->
+    <!-- <div class="cta-text"> -->
+        <!-- <h2>Do you Need a Junior Animator/ Web Dev ?</h2> -->
+        <!-- <p>Do you need some work done? Im always available </p> -->
+    <!-- </div> -->
+    <!-- <div class="cta-btn"> -->
+        <!-- <a href="#" class="cta-btn">GET IN TOUCH</a> -->
+   <!-- </div> -->
+<!--</section> -->
+<!-- start contact section -->
+<section class="contact" id="contact">
+    <div class="headings">
+        <span>Contact Me</span>
+        
+       <h2> Lets Get In Touch ! </h2>
+    </div>
+    <div class="contact-container">
+        <div class="con-box">
+            <div class="icon">
+                <i class="bx bxs-phone"></i>
+            </div>
+            <h3>Phone</h3>
+            <h6>(613) 462-5448</h6>
+            <h5>(613) 462-5448</h5>
+        </div>
+        <div class="con-box">
+            <div class="icon">
+                <i class='bx bx-envelope' ></i>
+            </div>
+            <h3>Email</h3>
+            <h6>daniel.j.milloy@gmail.com</h6>
+            <h5>daniel.j.milloy@gmail.com</h5>
+        </div>
+        <div class="con-box">
+            <div class="icon">
+                <i class='bx bx-current-location'></i>
+            </div>
+            <h3>Location</h3>
+            <h6>Ottawa</h6>
+            <h5>Ontario</h5>
+        </div>
+    </div>
+</section>
+<!-- start bottom section -->
+<!-- <div class="bottom"> -->
+    <!-- <p>Made By Daniel Milloy</p> -->
+<!-- </div> -->
+
+<script type = "text/javascript" src="script.js"></script>
+<script src="/js/portfoliojs/portfolio.js"></script>
+</body>
+</html>
