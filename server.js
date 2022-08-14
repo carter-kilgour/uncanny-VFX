@@ -18,7 +18,7 @@ const photoshops = require('./models/photoshops')
 const illustrators = require('./models/illustrators')
 const app = express()
 
-mongoose.connect('mongodb://localhost/review')
+mongoose.connect('mongodb+srv://doadmin:aj1mxGK296V8d357@db-mongodb-nyc3-05726-eeefa0af.mongo.ondigitalocean.com/admin?replicaSet=db-mongodb-nyc3-05726&tls=true&authSource=admin')
 
 app.set('view engine', 'ejs')
 
